@@ -3,6 +3,7 @@
     ;
     --text_color: #1BC768;
 
+
 }
 
 * {
@@ -53,8 +54,8 @@ body {
     display: flex;
     width: 100%;
     justify-content: space-between;
-     padding-top: 100px;
-     padding-bottom: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .page-top {
@@ -132,8 +133,8 @@ body {
 }
 
 .border_btn {
-    background: transparent;
-    border-color: #1BC768;
+    background-color: transparent;
+    border-color: var(--text_color);
     color: var(--secondary_color);
     color: #1BC768;
 }
@@ -226,6 +227,8 @@ h5 {
     line-height: 24px;
     letter-spacing: 0.10000000149011612px;
     text-align: left;
+    color: #252B42;
+    ;
 
 }
 
@@ -304,6 +307,10 @@ h6 {
     gap: 5px;
 }
 
+.title h2 {
+    color: #252B42;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -335,23 +342,19 @@ h6 {
     justify-content: center;
     background-color: #FFFFFF;
     color: #5D5DF9;
-
 }
 
 .card .icon i {
     font-size: 32px;
 }
 
-.booking {}
+
 
 .superhead {
     display: flex;
-
 }
 
-.box {
-    width: 238px;
-}
+
 
 .gray-text {
     color: #BDBDBD;
@@ -365,7 +368,7 @@ h6 {
     display: flex;
 }
 
-.product_card{
+.product_card {
     width: 238px;
 
 }
@@ -519,7 +522,6 @@ h6 {
 .button.button {
     display: flex;
     font-size: 13px;
-    border: transparent;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -734,7 +736,7 @@ h6 {
 
 button {
     color: #fff;
-    background-color: var(--text_color);
+  
 }
 
 .update {
@@ -812,6 +814,7 @@ button {
     display: flex;
     text-align: center;
     justify-content: space-between;
+    border-radius: 5px;
 }
 
 .inputbar .filled_btn {
@@ -829,6 +832,7 @@ button {
     width: 400px;
     border: none;
     text-align: left;
+    border-radius: 3px;
 }
 
 .login {
@@ -988,7 +992,7 @@ button {
 .details {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10pxpx;
 }
 
 .details a {
@@ -999,6 +1003,7 @@ button {
     font-size: 14px;
     font-weight: 700;
     gap: 10px;
+    align-items: baseline;
 }
 
 .contact_icon i {
